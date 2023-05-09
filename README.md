@@ -2,7 +2,7 @@
 ## Acknowledements
 * The Code Skeleton has been taken from this [repository](https://github.com/adityajn105/flappy-bird-deep-q-learning). Thanks to the author.
 * This project is a collaboration between me, Kaiwen Dai(kd1860@nyu.edu), Sky Lyu(sl6246@nyu.edu), and Yirong Bian(yb970@nyu.edu).
-## Intrudction
+## Introdction
 The study of learning and adaptation processes in humans and reinforcement learning (RL) agents is essential for developing intelligent systems capable of adapting to new or changing environments. Flappy Bird, a popular game where players control a bird to navigate through gaps between vertical pipes, serves as an excellent platform to investigate these processes. In this study, we design an experiment involving human participants and an RL agent to explore their adaptability and the role of prior knowledge.
 
 We have designed three variations of the Flappy Bird game with altered settings. The first variation features a narrower distance between pipes, requiring minor adjustments to gameplay. The second variation introduces inverted gravity, causing the bird to ascend with gravity and descend with each tap, challenging players' intuition and the RL agent's reward state space. The third variation presents a complex background, incorporating fake pipes that resemble the original pipes but do not result in collisions with the bird. These fake pipes remain stationary, while the real pipes continue to move.
