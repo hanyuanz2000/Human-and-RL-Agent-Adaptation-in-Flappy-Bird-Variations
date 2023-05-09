@@ -1,4 +1,7 @@
 # Exploring the Adaptability of Humans and Reinforcement Learning Agents in Altered Game Environments: A Flappy Bird Case Study
+## Acknowledements
+* The Code Skeleton has been taken from this [repository]([https://github.com/sourabhv/FlapPyBird](https://github.com/adityajn105/flappy-bird-deep-q-learning)). Thanks to the author.
+* This project is corperated by Me, [Kaiwen Dai] (kd1860@nyu.edu), [Sky Lyu] (sl6246@nyu.edu), [Yirong Bian] (yb970@nyu.edu)
 ## Intrudction
 The study of learning and adaptation processes in humans and reinforcement learning (RL) agents is essential for developing intelligent systems capable of adapting to new or changing environments. Flappy Bird, a popular game where players control a bird to navigate through gaps between vertical pipes, serves as an excellent platform to investigate these processes. In this study, we design an experiment involving human participants and an RL agent to explore their adaptability and the role of prior knowledge.
 
@@ -57,6 +60,3 @@ where,
 
 
 [Take a look at this article which explains Double Dueling and PER](https://medium.freecodecamp.org/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682)
-
-## Acknowledements
-* The Game has been taken from this [repository]([https://github.com/sourabhv/FlapPyBird](https://github.com/adityajn105/flappy-bird-deep-q-learning)). Thanks to the author.
