@@ -10,6 +10,7 @@ def load():
 
     # path of background
     BACKGROUND_PATH = 'assets/sprites/background-black.png'
+    BACKGROUND_CHANGED_PATH = 'assets/sprites/background_changed_1.png'
 
     # path of pipe
     PIPE_PATH = 'assets/sprites/pipe-green.png'
@@ -47,6 +48,8 @@ def load():
 
     # select random background sprites
     IMAGES['background'] = pygame.image.load(BACKGROUND_PATH).convert()
+    IMAGES['background_changed_1'] = pygame.image.load(BACKGROUND_CHANGED_PATH).convert()
+
 
     # select random player sprites
     IMAGES['player'] = (
