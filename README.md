@@ -1,7 +1,4 @@
 # Exploring the Adaptability of Humans and Reinforcement Learning Agents in Altered Game Environments: A Flappy Bird Case Study
-## Acknowledements
-* The Code Skeleton has been taken from this [repository](https://github.com/adityajn105/flappy-bird-deep-q-learning). Thanks to the author.
-* This project is a collaboration between me, Kaiwen Dai(kd1860@nyu.edu), Sky Lyu(sl6246@nyu.edu), and Yirong Bian(yb970@nyu.edu).
 ## Introdction
 The study of learning and adaptation processes in humans and reinforcement learning (RL) agents is essential for developing intelligent systems capable of adapting to new or changing environments. Flappy Bird, a popular game where players control a bird to navigate through gaps between vertical pipes, serves as an excellent platform to investigate these processes. In this study, we design an experiment involving human participants and an RL agent to explore their adaptability and the role of prior knowledge.
 
@@ -13,13 +10,10 @@ Human participants first play the original Flappy Bird game for 10 rounds and th
 
 This experimental design mimics how human participants experience different games, first by playing the default game settings and then using prior experience to adapt to altered game settings. The findings of this study have potential implications for developing more adaptable AI systems and enhancing human-computer interaction. The following sections detail our methods and models, experimental setup, results, and reference instructions. 
 
-## Getting Started
-Here I will explain how to run the game which runs automatically using saved model, also I will breif you about basics of Q Learning, Deep Q learning, Dueling architecture and Prioritized Experience Replay.
-
 ### Prerequisites
 You will need Python 3.X.X with some packages which you can install direclty using requirements.txt.
 > pip install -r requirements.txt
 
-### Running The Game
-Use the following command to run the game where '--model' indicates the location of saved DQN model.
-> python3 play_game.py --model checkpoints/flappy_best_model.dat
+## Acknowledements
+* The Code Skeleton has been taken from this [repository](https://github.com/adityajn105/flappy-bird-deep-q-learning). Thanks to the author.
+* This project is a collaboration between me, Kaiwen Dai(kd1860@nyu.edu), Sky Lyu(sl6246@nyu.edu), and Yirong Bian(yb970@nyu.edu).
